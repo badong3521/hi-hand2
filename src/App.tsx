@@ -25,7 +25,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to
         </p>
       </div>
-      <p className="read-the-docs">CHANGE GIT ACTIONS</p>
+      <p className="read-the-docs">HACK di</p>
     </>
   );
 }
