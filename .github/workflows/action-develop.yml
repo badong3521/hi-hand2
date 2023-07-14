@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm i
-    - run: npm test
+    - run: npm run
     - run: npm run build 
     - run: mv /home/badong/actions-runner/actions-runner/cicdTest/cicdTest/build html
     - run: rm -r /var/www/react/html
