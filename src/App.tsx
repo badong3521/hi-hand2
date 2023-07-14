@@ -22,10 +22,10 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test
+          Edit <code>src/App.tsx</code> and save to
         </p>
       </div>
-      <p className="read-the-docs">AGAIN</p>
+      <p className="read-the-docs">CHANGE GIT ACTIONS</p>
     </>
   );
 }
