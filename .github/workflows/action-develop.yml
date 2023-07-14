@@ -29,6 +29,6 @@ jobs:
     - run: npm i
     - run: npm run
     - run: npm run build 
-    - run: mv /home/badong/actions-runner/actions-runner/cicdTest/cicdTest/build html
-    - run: rm -r /var/www/react/html
-    - run: cp -R /home/badong/actions-runner/actions-runner/cicdTest/cicdTest/html /var/www/react
+    - run: mv /home/WORKSPACE/hi-hand2/dist html
+    - run: rm -r /var/www/hihand/html
+    - run: cp -R /home/WORKSPACE/hi-hand2/html /var/www/hihand
