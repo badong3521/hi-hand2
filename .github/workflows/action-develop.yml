@@ -29,6 +29,6 @@ jobs:
     - run: npm i
     - run: npm run
     - run: npm run build 
-    - run: mv /home/WORKSPACE/hi-hand2/dist/ html
+    - run: mv /home/WORKSPACE/hi-hand2/html/ dist/
     - run: rm -r /var/www/hihand/html
     - run: cp -R /home/WORKSPACE/hi-hand2/html /var/www/hihand
