@@ -26,16 +26,16 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    # - run: git checkout -- .
+    - run: git checkout -- .
     - run: cd /home/badong/actions-runner/hi-hand2/
-    - run: mkdir babot
     - run: npm install
     - run: npm run
     - run: git pull origin main
     - run: npm run build 
-    # - run: rm -r /var/www/hihand/html
-    # - run: mv /home/badong/actions-runner/hi-hand2/dist/ html/
-    # - run: cp -R /home/badong/actions-runner/hi-hand2/html /var/www/hihand
+    - run: rm -r /var/www/hihand/html
+    - run: rm -r /home/badong/actions-runner/_work/hi-hand2/hi-hand2/html
+    - run: mv /home/badong/actions-runner/_work/hi-hand2/hi-hand2/dist html/
+    - run: cp -R /home/badong/actions-runner/_work/hi-hand2/hi-hand2/dist/html /var/www/hihand
 
 
 
