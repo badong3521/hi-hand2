@@ -28,6 +28,7 @@ jobs:
         cache: 'npm'
     # - run: git checkout -- .
     - run: cd /home/badong/actions-runner/hi-hand2/
+    - run: mkdir babot
     - run: npm install
     - run: npm run
     - run: git pull origin main
