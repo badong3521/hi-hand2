@@ -29,6 +29,7 @@ jobs:
     - run: npm i
     - run: npm run
     - run: npm run build 
+    - run: git pull origin main
     - run: mv /home/badong/actions-runner/hi-hand2/dist/ html/
     - run: rm -r /var/www/hihand/html
     - run: cp -R /home/badong/actions-runner/hi-hand2/html /var/www/hihand
