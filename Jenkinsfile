@@ -25,8 +25,5 @@ pipeline {
         failure {
             echo "FAILED"
         }
-        error {
-            echo "ERROR"
-        }
     }
 }
