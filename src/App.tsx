@@ -26,7 +26,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to
         </p>
       </div> */}
-      <p className="read-the-docs">DONE hi-hand</p>
+      <p className="read-the-docs">DONE fix</p>
     </>
   );
 }
